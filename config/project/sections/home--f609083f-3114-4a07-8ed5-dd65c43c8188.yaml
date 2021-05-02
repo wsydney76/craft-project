@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  c7440b7b-2ea6-4f07-8373-0dbecc282d18: # Craft Project
+    enabledByDefault: true
+    hasUrls: true
+    template: _sections/home
+    uriFormat: __home__
+type: single
