@@ -1,45 +1,29 @@
-h1 {
-  @apply text-5xl tracking-wide leading-tight font-serif;
-}
+/* Your components here */
+.rich-text {
+  h2 {
+    @apply mt-12 mb-6 font-bold text-3xl;
+  }
 
+  h3 {
+    @apply mt-8 mb-6 font-bold text-2xl;
+  }
 
-h2, h3, h4, h5, h6,
-{
-  @apply mb-4 font-serif;
-}
+  p {
+    @apply mb-6;
+  }
 
-h2 {
-  @apply text-3xl;
-}
+  figure {
+    @apply my-8;
+  }
 
-h3 {
-  @apply text-2xl;
-}
+  figcaption {
+    @apply mt-2 text-center text-gray-600;
+  }
 
-h4 {
-  @apply text-xl;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-ol[type=I] {
-  list-style-type: upper-not-italic;
-}
-
-ol[type=a] {
-  list-style-type: lower-alpha;
-}
-
-p img {
-  @apply block mx-auto;
-}
-
-a:hover {
-  @apply underline text-gray-500;
+  ul {
+    @apply my-8 list-disc pl-5;
+    li {
+      @apply my-2;
+    }
+  }
 }

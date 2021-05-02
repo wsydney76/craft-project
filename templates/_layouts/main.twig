@@ -9,11 +9,11 @@
 
 <body>
 
-<div class="container mx-auto py-8">
-    <a class="text-4xl font-semibold" href="{{ siteUrl('/') }}">{{ systemName }}</a>
-</div>
+<div class="container mx-auto px-4 py-8 max-w-screen-md">
+    <div class="mb-6">
+        <a class="text-4xl font-semibold" href="{{ siteUrl('/') }}">{{ systemName }}</a>
+    </div>
 
-<div class="container mx-auto my-8">
     <h1>{{ entry.title }}</h1>
 
     {% block content %}
