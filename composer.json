@@ -20,9 +20,7 @@
   },
   "scripts": {
     "post-root-package-install": [
-      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-      "@php craft setup/app-id",
-      "@php craft setup/security-key"
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
     ],
     "pre-update-cmd": [
       "@php craft off --retry=30"
